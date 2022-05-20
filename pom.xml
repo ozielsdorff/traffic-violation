@@ -9,6 +9,12 @@
   <name>traffic-violation</name>
   <description>Sample app</description>
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/com.datadoghq/dd-java-agent -->
+    <dependency>
+    <groupId>com.datadoghq</groupId>
+    <artifactId>dd-java-agent</artifactId>
+    <version>0.101.0</version>
+    </dependency>
     <dependency>
       <groupId>org.kie</groupId>
       <artifactId>kie-api</artifactId>
